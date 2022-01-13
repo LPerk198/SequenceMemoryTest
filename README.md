@@ -1,4 +1,4 @@
-# SequenceMemoryTest
+# Sequence Memory Test
 A simple memory game made with HTML, CSS, and JS.
 <br>
 <br>
