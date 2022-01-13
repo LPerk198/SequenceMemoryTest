@@ -37,6 +37,7 @@ function nextSeq() {
 
 function btnClick(btnID) {
     let button = document.getElementById(btnID);
+    clickAnimation(button);
     if(button.id.includes('btn')) {
         currentSeqAddBtn(button.id);
         checkSequence();
@@ -87,6 +88,12 @@ function checkSequence() {
             return;
         }
     });
+}
+
+async function clickAnimation(btn) {
+    btn.classList.add('btn-click');
+    await sleep(100);
+    btn.classList.remove('btn-click');
 }
 
 function sleep(ms) {

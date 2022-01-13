@@ -56,7 +56,6 @@
     background-color: #f95959;
 }
 .grid-btn-anim:hover {
-    transform: scale(1.05);
     border: 3px solid black;
     background-color: #f95959;
 }
@@ -76,6 +75,9 @@
 }
 .extra-btn:hover {
     background-color: white;
+}
+.btn-click {
+    transform: scale(0.98);
 }
 .score-label {
     color: #e3e3e3;
